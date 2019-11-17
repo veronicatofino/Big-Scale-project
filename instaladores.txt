@@ -1,0 +1,8 @@
+Estos comandos se corren por terminal asumiendo que el servidor es UBUNTU.
+PHP: 
+sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
+Composer:
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+
+Laravel:
+composer global require laravel/installer

@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/*Semantic classes*/
+
+.custom-select:focus{
+    border-color: #FFD705;
+    outline: 0 !important;
+}
+.ui.segment{
+    margin-top: 4rem;
+    padding: 2rem 5rem 2rem 5rem;
+}
+.buttonHolder{
+    font-family: 'Roboto', sans-serif;
+}
+
+.ui.input{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.ui.inverted.secondary.button{
+    margin-top: 2rem;
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem;
+    width: 30%;
+    outline-color: black !important;
+}
+/*Resvit classes*/
+.appHeader {
+  background-color: #1c1d1f;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  box-shadow: 2px 2px 5px #999;
+  flex-direction: row;
+}
+.topBar{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: inline-block;
+}
+.decorBar{
+    width: 100%;
+    height: 3px;
+    background-color: #FFD705;
+}
+.formBox{
+    padding: 1rem 5rem 2rem 5rem;
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.tableBox{
+    padding: 2rem 20rem 4rem 20rem;
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+.eventBox{
+    background-color: #1c1d1f;
+    width: 40%;
+    height: auto;
+    padding: 1rem;
+    float: right;
+}
+.topName{
+    color: #FFD705;
+    font-size: 36px;
+    vertical-align: middle;
+    padding-top: 0.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+.appLogo {
+  height: 90px;
+  width: 80px;
+  margin-right: 10px;
+  margin-left: 20px;
+  padding-bottom: 15px;
+}
+.decor {
+    height: 200px;
+    width: 300px;
+    padding-bottom: 15px;
+  }
+.title{
+    font-size: 24px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+.conButton{
+    margin-top: 1.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: #FFFFFF;
+    color: black;
+}
+.conButton:focus{
+  border: 2px #FFD705;
+  background-color: #FFFFFF;
+  color: black;
+}
+
+/*HTML native classes*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+}
+
+[type="date"] {
+    font-family: 'Roboto', sans-serif;
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(https://drive.google.com/thumbnail?id=1V8_Z8j_H2_2x82gyPuHS9A3zLW_xXnz5) no-repeat;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+}
+input[type=date]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1rem;
+}
